@@ -26,7 +26,7 @@ def bisection(xl  , xu , es , imax , xr , iterr , ea):
             ea = 0
         if ea < es or iterr > imax:
             break
-        iterr +=1
+        
     return xr
 
 
